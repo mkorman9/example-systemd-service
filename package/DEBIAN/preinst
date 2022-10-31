@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-set -ex
+set -e
 
-systemctl stop example-service || true
-useradd --system example-service || true
+if [[ "$1" == "install" ]]; then
+    useradd --system example-service || true
+fi
