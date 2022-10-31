@@ -2,5 +2,6 @@
 
 set -ex
 
-systemctl start example-service && \
+systemctl daemon-reload && \
+    systemctl start example-service && \
     systemctl enable example-service
