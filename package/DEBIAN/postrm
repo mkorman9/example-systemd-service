@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+deluser --system example-service || true
+delgroup --system example-service || true

@@ -1,0 +1,6 @@
+Package: example-service
+Version: 1.0
+Architecture: all
+Maintainer: Me <me@example.com>
+Description: Hello world package.
+ Serves as an example for creating .deb packages.

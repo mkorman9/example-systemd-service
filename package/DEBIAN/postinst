@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+
+set -ex
+
+systemctl start example-service && \
+    systemctl enable example-service

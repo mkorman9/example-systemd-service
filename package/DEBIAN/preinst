@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -ex
+
+systemctl stop example-service || true
+useradd --system example-service || true
